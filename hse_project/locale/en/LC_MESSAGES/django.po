@@ -1,0 +1,365 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-28 16:58+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\account\templates\registration\login.html:7
+msgid "Log in to your account"
+msgstr "Log in to your account"
+
+#: .\account\templates\registration\login.html:16
+#: .\check_list_app\templates\index.html:17
+msgid "Log in"
+msgstr "Log in"
+
+#: .\check_list_app\forms.py:6 .\check_list_app\models.py:27
+msgid "Date"
+msgstr "Date"
+
+#: .\check_list_app\forms.py:7
+#, fuzzy
+#| msgid "Plate number"
+msgid "Select plate number"
+msgstr "Plate number"
+
+#: .\check_list_app\forms.py:8
+#, fuzzy
+#| msgid "Driver_name"
+msgid "Put driver name"
+msgstr "Driver_name"
+
+#: .\check_list_app\forms.py:11
+msgid "Put your comment here"
+msgstr "Put your comment here"
+
+#: .\check_list_app\models.py:6
+msgid "Direction/Subcontractor name"
+msgstr "Direction/Subcontractor name"
+
+#: .\check_list_app\models.py:14 .\check_list_app\templates\regular.html:13
+msgid "Plate number"
+msgstr "Plate number"
+
+#: .\check_list_app\models.py:22
+msgid "YES"
+msgstr "YES"
+
+#: .\check_list_app\models.py:23
+msgid "NO"
+msgstr "NO"
+
+#: .\check_list_app\models.py:24
+msgid "N/A"
+msgstr "N/A"
+
+#: .\check_list_app\models.py:29 .\check_list_app\templates\regular.html:17
+msgid "Driver_name"
+msgstr "Driver_name"
+
+#: .\check_list_app\models.py:31 .\check_list_app\models.py:34
+#: .\check_list_app\models.py:36 .\check_list_app\models.py:38
+#: .\check_list_app\models.py:40 .\check_list_app\models.py:43
+#: .\check_list_app\models.py:45 .\check_list_app\models.py:47
+#: .\check_list_app\models.py:50 .\check_list_app\models.py:52
+#: .\check_list_app\models.py:54 .\check_list_app\models.py:56
+#: .\check_list_app\models.py:58 .\check_list_app\models.py:60
+#: .\check_list_app\models.py:62 .\check_list_app\models.py:64
+#: .\check_list_app\models.py:66 .\check_list_app\models.py:68
+#: .\check_list_app\models.py:70 .\check_list_app\models.py:73
+#: .\check_list_app\models.py:75 .\check_list_app\models.py:77
+#: .\check_list_app\models.py:79 .\check_list_app\models.py:81
+#: .\check_list_app\models.py:83 .\check_list_app\models.py:85
+#: .\check_list_app\models.py:88 .\check_list_app\models.py:90
+#: .\check_list_app\models.py:92 .\check_list_app\models.py:94
+#: .\check_list_app\models.py:96 .\check_list_app\models.py:98
+#: .\check_list_app\models.py:100 .\check_list_app\models.py:102
+#: .\check_list_app\models.py:104 .\check_list_app\models.py:106
+#: .\check_list_app\models.py:109 .\check_list_app\models.py:111
+#: .\check_list_app\models.py:113
+msgid "Comment"
+msgstr "omment"
+
+#: .\check_list_app\models.py:115
+msgid "Corrective action"
+msgstr ""
+
+#: .\check_list_app\templates\index.html:7
+#: .\check_list_app\templates\index.html:12
+#, fuzzy
+#| msgid "Log in"
+msgid "Log out"
+msgstr "Log in"
+
+#: .\check_list_app\templates\index.html:11
+#: .\check_list_app\templates\index.html:27
+msgid "You are logged in as "
+msgstr ""
+
+#: .\check_list_app\templates\index.html:29
+msgid "Login failed"
+msgstr ""
+
+#: .\check_list_app\templates\index.html:33
+msgid "Welcome to HSE webapp"
+msgstr "Welcome to HSE webapp"
+
+#: .\check_list_app\templates\index.html:37 .\hse_project\settings.py:126
+msgid "Kazakh"
+msgstr ""
+
+#: .\check_list_app\templates\index.html:38 .\hse_project\settings.py:125
+msgid "Russian"
+msgstr ""
+
+#: .\check_list_app\templates\index.html:39 .\hse_project\settings.py:127
+msgid "English"
+msgstr ""
+
+#: .\check_list_app\templates\index.html:46
+#: .\check_list_app\templates\index.html:49
+msgid "Next"
+msgstr "Next"
+
+#: .\check_list_app\templates\regular.html:3
+msgid "Vehicle checklist"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:28
+msgid "Responsible elements and requirements"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:29
+msgid "Correspondence"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:30
+msgid "Notes"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:35
+msgid "Fluid levels"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:38
+msgid "Fuel"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:43
+msgid "Oil"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:48
+msgid "Brake Fluid"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:53
+msgid "Cooling Fluid"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:58
+msgid "Windshield washer fluid"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:63
+msgid "Lanterns, headlights"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:66
+msgid "Headlights"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:71
+msgid "Reversing lights hazard lights"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:76
+msgid "Turn signals and brake lights"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:81
+msgid "Mechanical and electrical equipment"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:84
+msgid "Steering"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:89
+msgid "Clutch"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:94
+msgid "Brakes, parking brake"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:99
+msgid "Monitoring and control devices"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:104
+msgid "Heater, air conditioner (if equipped)"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:109
+msgid "Windscreen wipers"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:114
+msgid "Horn"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:119
+msgid "Reverse signal (for trucks and special vehicles, Gazelle)"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:124
+msgid "Visual inspection of installed GPS equipment"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:129
+msgid "Availability and functionality of the DVR"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:134
+msgid "Battery"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:139
+msgid "Purity and integrity"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:142
+msgid "Inside and outside"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:147
+msgid "All mirrors and glass"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:152
+msgid "Seat belts"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:157
+msgid "Tire condition and pressure"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:162
+msgid "No cracks on the discs"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:167
+#, fuzzy
+#| msgid "Plate number"
+msgid "Plate numbers and signs"
+msgstr "Plate number"
+
+#: .\check_list_app\templates\regular.html:172
+msgid "Tightening the wheel nuts"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:177
+msgid "Auxiliary equipment in the vehicle"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:180
+msgid "Fire extinguisher"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:185
+msgid "First aid kit"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:190
+msgid "Tools, wheel wrench, jack"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:195
+msgid "Spare wheel"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:200
+msgid "Warning triangle"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:205
+msgid "Tow rope, shovel"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:210
+msgid "Wheel chocks (for trucks and buses (at least two))"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:215
+msgid "Communication (phones, walkie-talkie)"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:220
+msgid "Reflective vest"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:225
+msgid "Brush-scraper for cleaning the windshield (in winter)"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:230
+msgid "Documentation"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:233
+msgid "Driver's license, HSE certificate"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:238
+msgid "Documents for the car"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:243
+msgid "Cargo documents"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:248
+msgid "Corrective Actions"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:256
+msgid "Form filled out by user"
+msgstr ""
+
+#: .\check_list_app\templates\regular.html:264
+msgid "Send"
+msgstr ""
+
+#: .\check_list_app\templates\select.html:5
+msgid "Select type of vehicle"
+msgstr ""
+
+#: .\check_list_app\templates\select.html:10
+msgid "Regular transport"
+msgstr "Regular transport"
+
+#: .\check_list_app\templates\select.html:11
+msgid "Dangerous cargo"
+msgstr "Dangerous cargo"
+
+#: .\check_list_app\views.py:110
+msgid "Your form has been successfully completed."
+msgstr ""
+
+#~ msgid "Here will be the next page"
+#~ msgstr "Here will be the next page"

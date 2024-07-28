@@ -1,0 +1,28 @@
+{% extends 'base.html' %} {% load crispy_forms_tags %} {% load i18n %} 
+{% block content %}
+<div class="container content">
+<div class="mx-auto" style="width: 300px">
+  <div class="card">
+    <div class="card-body">
+      <h4 class="card-title">{% trans 'Log in to your account'%}</h4>
+
+      <form method="post">
+        {% csrf_token %}
+        <input type="hidden" name="next" value="{{ next }}" />
+
+        {{ form|crispy }}
+
+        <button type="submit" class="btn btn-primary btn-block mb-4">
+          {% trans 'Log in' %}
+        </button>
+      </form>
+      <div class="border-top pt-3 mb-4">
+        <small class="text-muted">
+            Нужен аккаунт? <a class="ml-2" href="{% url 'register' %}">Регистрация</a>
+        </small>
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+{% endblock %}

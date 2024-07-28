@@ -1,0 +1,41 @@
+{% extends 'base.html' %} {% load i18n %} {% block navbar %}
+{% if user.is_authenticated %}
+
+<p class="text-success"> {% trans 'You are logged in as '%}{{user}}</p>
+<a class="button btn btn-primary" href="account/logout">{% trans 'Log out' %}</a>
+{% else %}
+
+{% endif %}
+{% endblock %}
+
+{% block content %}
+{% if user.is_authenticated %}
+{% else %}
+<h3 class="text-primary">{% trans 'Login failed' %}</h3>
+{% endif %}
+
+<div class="container content">
+  <h1 class="mb-4">{% trans "Welcome to HSE webapp" %}</h1>
+
+  <div class="container mb-5">
+    <div class="d-grid gap-2 col-6 mx-auto">
+      <a class="btn btn-primary btn-lg" href="/kk/">{% trans "Kazakh" %}</a>
+      <a class="btn btn-primary btn-lg" href="/ru/">{% trans "Russian" %}</a>
+      <a class="btn btn-primary btn-lg" href="/en/">{% trans "English" %}</a>
+    </div>
+  </div>
+
+  <div class="container mb-4">
+    <div class="d-grid gap-2 col-6 mx-auto">
+      {% if user.is_authenticated %}
+      <a class="btn btn-secondary" href="select/" role="button">{% trans "Next" %}</a>
+      {% else %}
+      <a class="btn btn-secondary" href="account/login/" role="button"
+        >{% trans "Next" %}</a
+      >
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% endblock %}

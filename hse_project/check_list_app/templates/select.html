@@ -1,0 +1,15 @@
+{% extends 'base.html' %} {% load i18n %} 
+
+{% block content %}
+<div class="container content">
+  <h1>{% trans 'Select type of vehicle' %}</h1>
+
+
+  <div class="container mb-5">
+    <div class="d-grid gap-2 col-6 mx-auto">
+      <a class="btn btn-primary btn-lg" href="regular/">{% trans "Regular transport" %}</a>
+      <a class="btn btn-primary btn-lg" href="#">{% trans "Dangerous cargo" %}</a>
+    </div>
+  </div>
+</div>
+  {% endblock %}

@@ -1,0 +1,361 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-28 16:58+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: .\account\templates\registration\login.html:7
+msgid "Log in to your account"
+msgstr "Тіркелгіңізге кіріңіз"
+
+#: .\account\templates\registration\login.html:16
+#: .\check_list_app\templates\index.html:17
+msgid "Log in"
+msgstr "Кіру"
+
+#: .\check_list_app\forms.py:6 .\check_list_app\models.py:27
+msgid "Date"
+msgstr "Күні"
+
+#: .\check_list_app\forms.py:7
+msgid "Select plate number"
+msgstr "Көліктің нөмірі"
+
+#: .\check_list_app\forms.py:8
+#, fuzzy
+#| msgid "Driver_name"
+msgid "Put driver name"
+msgstr "Жүргізуші аты"
+
+#: .\check_list_app\forms.py:11
+msgid "Put your comment here"
+msgstr "Пікір қалдырыңыз"
+
+#: .\check_list_app\models.py:6
+msgid "Direction/Subcontractor name"
+msgstr "Дирекцияның/мердігердің атауы"
+
+#: .\check_list_app\models.py:14 .\check_list_app\templates\regular.html:13
+msgid "Plate number"
+msgstr "Көліктің нөмірі"
+
+#: .\check_list_app\models.py:22
+msgid "YES"
+msgstr "ИӘ"
+
+#: .\check_list_app\models.py:23
+msgid "NO"
+msgstr "ЖОҚ"
+
+#: .\check_list_app\models.py:24
+msgid "N/A"
+msgstr "N/A"
+
+#: .\check_list_app\models.py:29 .\check_list_app\templates\regular.html:17
+msgid "Driver_name"
+msgstr "Жүргізуші аты"
+
+#: .\check_list_app\models.py:31 .\check_list_app\models.py:34
+#: .\check_list_app\models.py:36 .\check_list_app\models.py:38
+#: .\check_list_app\models.py:40 .\check_list_app\models.py:43
+#: .\check_list_app\models.py:45 .\check_list_app\models.py:47
+#: .\check_list_app\models.py:50 .\check_list_app\models.py:52
+#: .\check_list_app\models.py:54 .\check_list_app\models.py:56
+#: .\check_list_app\models.py:58 .\check_list_app\models.py:60
+#: .\check_list_app\models.py:62 .\check_list_app\models.py:64
+#: .\check_list_app\models.py:66 .\check_list_app\models.py:68
+#: .\check_list_app\models.py:70 .\check_list_app\models.py:73
+#: .\check_list_app\models.py:75 .\check_list_app\models.py:77
+#: .\check_list_app\models.py:79 .\check_list_app\models.py:81
+#: .\check_list_app\models.py:83 .\check_list_app\models.py:85
+#: .\check_list_app\models.py:88 .\check_list_app\models.py:90
+#: .\check_list_app\models.py:92 .\check_list_app\models.py:94
+#: .\check_list_app\models.py:96 .\check_list_app\models.py:98
+#: .\check_list_app\models.py:100 .\check_list_app\models.py:102
+#: .\check_list_app\models.py:104 .\check_list_app\models.py:106
+#: .\check_list_app\models.py:109 .\check_list_app\models.py:111
+#: .\check_list_app\models.py:113
+msgid "Comment"
+msgstr "Пікір"
+
+#: .\check_list_app\models.py:115
+msgid "Corrective action"
+msgstr "Түзетуші іс-әрекеттер"
+
+#: .\check_list_app\templates\index.html:7
+#: .\check_list_app\templates\index.html:12
+msgid "Log out"
+msgstr "Шығу"
+
+#: .\check_list_app\templates\index.html:11
+#: .\check_list_app\templates\index.html:27
+msgid "You are logged in as "
+msgstr "Сіз тіркелгіңізбен кірдіңіз  "
+
+#: .\check_list_app\templates\index.html:29
+msgid "Login failed"
+msgstr "Кіру сәтсіз аяқталды"
+
+#: .\check_list_app\templates\index.html:33
+msgid "Welcome to HSE webapp"
+msgstr "HSE webapp қош келдіңіз"
+
+#: .\check_list_app\templates\index.html:37 .\hse_project\settings.py:126
+msgid "Kazakh"
+msgstr ""
+
+#: .\check_list_app\templates\index.html:38 .\hse_project\settings.py:125
+msgid "Russian"
+msgstr ""
+
+#: .\check_list_app\templates\index.html:39 .\hse_project\settings.py:127
+msgid "English"
+msgstr ""
+
+#: .\check_list_app\templates\index.html:46
+#: .\check_list_app\templates\index.html:49
+msgid "Next"
+msgstr "Келесі"
+
+#: .\check_list_app\templates\regular.html:3
+msgid "Vehicle checklist"
+msgstr "Автокөлік құралын тексеру парағы"
+
+#: .\check_list_app\templates\regular.html:28
+msgid "Responsible elements and requirements"
+msgstr "Жауапты элементтер және талаптар"
+
+#: .\check_list_app\templates\regular.html:29
+msgid "Correspondence"
+msgstr "Сәйкестік"
+
+#: .\check_list_app\templates\regular.html:30
+msgid "Notes"
+msgstr "Ескертулер"
+
+#: .\check_list_app\templates\regular.html:35
+msgid "Fluid levels"
+msgstr "Сұйықтықтар деңгейі"
+
+#: .\check_list_app\templates\regular.html:38
+msgid "Fuel"
+msgstr "Отын"
+
+#: .\check_list_app\templates\regular.html:43
+msgid "Oil"
+msgstr "Май"
+
+#: .\check_list_app\templates\regular.html:48
+msgid "Brake Fluid"
+msgstr "Тежеуіш сұйықтығы"
+
+#: .\check_list_app\templates\regular.html:53
+msgid "Cooling Fluid"
+msgstr "Салқындату сұйықтығы "
+
+#: .\check_list_app\templates\regular.html:58
+msgid "Windshield washer fluid"
+msgstr "Шыны жуу багындағы сұйықтық "
+
+#: .\check_list_app\templates\regular.html:63
+msgid "Lanterns, headlights"
+msgstr "Шамдар, фарлар"
+
+#: .\check_list_app\templates\regular.html:66
+msgid "Headlights"
+msgstr "Фарлар"
+
+#: .\check_list_app\templates\regular.html:71
+msgid "Reversing lights hazard lights"
+msgstr "Артқа жүру шамдары, апаттық шамдар"
+
+#: .\check_list_app\templates\regular.html:76
+msgid "Turn signals and brake lights"
+msgstr "Бұрылыс көрсеткіштері және тоқтау белгілері"
+
+#: .\check_list_app\templates\regular.html:81
+msgid "Mechanical and electrical equipment"
+msgstr "Механикалық және электр жабдықтар"
+
+#: .\check_list_app\templates\regular.html:84
+msgid "Steering"
+msgstr "Меңгеріктік басқару"
+
+#: .\check_list_app\templates\regular.html:89
+msgid "Clutch"
+msgstr "Ажырату"
+
+#: .\check_list_app\templates\regular.html:94
+msgid "Brakes, parking brake"
+msgstr "Тежеуіштер, тұрақ тежеуіші"
+
+#: .\check_list_app\templates\regular.html:99
+msgid "Monitoring and control devices"
+msgstr "Бақылау және басқару құралдары"
+
+#: .\check_list_app\templates\regular.html:104
+msgid "Heater, air conditioner (if equipped)"
+msgstr "Жылытқыш, кондиционер"
+
+#: .\check_list_app\templates\regular.html:109
+msgid "Windscreen wipers"
+msgstr "Шыны тазартқыштар"
+
+#: .\check_list_app\templates\regular.html:114
+msgid "Horn"
+msgstr "Дыбыстық белгі "
+
+#: .\check_list_app\templates\regular.html:119
+msgid "Reverse signal (for trucks and special vehicles, Gazelle)"
+msgstr "Артқа жүру белгісі (Жүк автомобильдері, Газель үшін)"
+
+#: .\check_list_app\templates\regular.html:124
+msgid "Visual inspection of installed GPS equipment"
+msgstr "Орнатылған GPS – құрылғысының сыртқы жағдайы"
+
+#: .\check_list_app\templates\regular.html:129
+msgid "Availability and functionality of the DVR"
+msgstr "Бейнетіркеуші құрылғысының орнатылғандығы және жұмыс істейтіндігі"
+
+#: .\check_list_app\templates\regular.html:134
+msgid "Battery"
+msgstr "Аккумулятор"
+
+#: .\check_list_app\templates\regular.html:139
+msgid "Purity and integrity"
+msgstr "Тазалық және тұтастық"
+
+#: .\check_list_app\templates\regular.html:142
+msgid "Inside and outside"
+msgstr "Ішінде және сыртында"
+
+#: .\check_list_app\templates\regular.html:147
+msgid "All mirrors and glass"
+msgstr "Барлық айналары және шынылары"
+
+#: .\check_list_app\templates\regular.html:152
+msgid "Seat belts"
+msgstr "Қауіпсіздік белдіктері"
+
+#: .\check_list_app\templates\regular.html:157
+msgid "Tire condition and pressure"
+msgstr "Шиналардың жағдайы және қысым"
+
+#: .\check_list_app\templates\regular.html:162
+msgid "No cracks on the discs"
+msgstr "Дөңгелектің дискісі жарылғамаған"
+
+#: .\check_list_app\templates\regular.html:167
+msgid "Plate numbers and signs"
+msgstr "Мемлекеттік тіркеу нөмірі белгілері"
+
+#: .\check_list_app\templates\regular.html:172
+msgid "Tightening the wheel nuts"
+msgstr "Дөңгелектердің бекіткіштерінің гайкаларын тарту"
+
+#: .\check_list_app\templates\regular.html:177
+msgid "Auxiliary equipment in the vehicle"
+msgstr "А/м  қосымша жабдықтар"
+
+#: .\check_list_app\templates\regular.html:180
+msgid "Fire extinguisher"
+msgstr "Өрт сөндіргіш(тер)"
+
+#: .\check_list_app\templates\regular.html:185
+msgid "First aid kit"
+msgstr "Алғашқы көмек аптечкасы"
+
+#: .\check_list_app\templates\regular.html:190
+msgid "Tools, wheel wrench, jack"
+msgstr "Құралдар, баллон кілті, домкрат"
+
+#: .\check_list_app\templates\regular.html:195
+msgid "Spare wheel"
+msgstr "Қосалқы дөңгелек"
+
+#: .\check_list_app\templates\regular.html:200
+msgid "Warning triangle"
+msgstr "Апаттық тоқтау белгісі"
+
+#: .\check_list_app\templates\regular.html:205
+msgid "Tow rope, shovel"
+msgstr "Тіркеп сүйреу арқаны, күрек"
+
+#: .\check_list_app\templates\regular.html:210
+msgid "Wheel chocks (for trucks and buses (at least two))"
+msgstr ""
+"Домалап кетуге қарсы тіреуіштер (жүк автомобильдеріне және автобустарға "
+"(кемінде екі))"
+
+#: .\check_list_app\templates\regular.html:215
+msgid "Communication (phones, walkie-talkie)"
+msgstr "Байланыс (телефондар, рация)"
+
+#: .\check_list_app\templates\regular.html:220
+msgid "Reflective vest"
+msgstr "Жарықты шағылыстыратын кеудеше"
+
+#: .\check_list_app\templates\regular.html:225
+msgid "Brush-scraper for cleaning the windshield (in winter)"
+msgstr "Көлік әйнектерін  тазартуға арналған қырғыш-щетка (қыс кезінде)"
+
+#: .\check_list_app\templates\regular.html:230
+msgid "Documentation"
+msgstr "Құжаттама"
+
+#: .\check_list_app\templates\regular.html:233
+msgid "Driver's license, HSE certificate"
+msgstr "Жүргізуші куәлігі, ҚТ бойынша куәлік"
+
+#: .\check_list_app\templates\regular.html:238
+msgid "Documents for the car"
+msgstr "Автомашина құжаттары"
+
+#: .\check_list_app\templates\regular.html:243
+msgid "Cargo documents"
+msgstr "Жүк құжаттары"
+
+#: .\check_list_app\templates\regular.html:248
+msgid "Corrective Actions"
+msgstr "Түзетуші іс-әрекеттер"
+
+#: .\check_list_app\templates\regular.html:256
+msgid "Form filled out by user"
+msgstr "Пішінді пайдаланушы толтырды"
+
+#: .\check_list_app\templates\regular.html:264
+msgid "Send"
+msgstr "Жіберу"
+
+#: .\check_list_app\templates\select.html:5
+msgid "Select type of vehicle"
+msgstr "Көлік түрін таңдаңыз"
+
+#: .\check_list_app\templates\select.html:10
+msgid "Regular transport"
+msgstr "Тұрақты тасымалдау"
+
+#: .\check_list_app\templates\select.html:11
+msgid "Dangerous cargo"
+msgstr "Қауіпті жүктер"
+
+#: .\check_list_app\views.py:110
+msgid "Your form has been successfully completed."
+msgstr "Пішініңіз сәтті аяқталды"
+
+#~ msgid "Here will be the next page"
+#~ msgstr "Келесі бет осында болады"
